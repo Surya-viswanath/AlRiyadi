@@ -1,0 +1,63 @@
+body{
+    overflow-x: hidden;
+}
+.main-div{
+    /* background-image: url('back-img.jpg'); */
+   
+  
+        background-image: url("bg.jpeg");
+        height: 100vh;
+        width: 100%;
+        /* background-position: top 35% right 0; */
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      
+        padding: 0 70px;
+      
+  
+}
+.login-btn{
+    border: 1px solid #198754;
+    border-radius: 5px;
+    /* background-color: #240b73; */
+    color: black;
+}
+.submit-head{
+    /* text-align: center;
+    align-items: center;
+    justify-content: center; */
+    border: 2px solid  grey;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 12px;
+   margin-top:20% ;
+}
+.msg-div{
+    
+   background-image:url("submit-img.jpg") ; 
+   height: 90vh;
+   width: 100%;
+   /* background-position: top 25% right 0 bottom 20%; */
+   background-position: center;
+   /* background-size: cover; */
+   background-size: contain;
+   background-repeat: no-repeat;
+  
+   /* background-color: #ebecf2; */
+   background-color: #f2f0f3;
+   /* background-color: white; */
+margin: 0px;
+padding: 20px;
+   /* padding:0 70px; */
+}
+.dev-by{
+    float: right;
+   padding-top: 150px;
+   color: grey;
+   font-size: 10px;
+}
+/* .submit-div{
+   text-align: center;
+   justify-content: center;
+} */
